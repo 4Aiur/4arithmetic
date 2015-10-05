@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd4c3f7b-a813-4ab6-9d06-8830d4c30bb6" name="howky@DESKTOP-C3DDOP6 2015-10-06 00:55:42" runUser="DESKTOP-C3DDOP6\howky" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9f39570d-a9c3-4060-b24b-f24c92f277c5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="howky_DESKTOP-C3DDOP6 2015-10-06 00_55_42">
+      <DeploymentItem filename="c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-06T00:55:42.8221619+08:00" queuing="2015-10-06T00:55:46.1353668+08:00" start="2015-10-06T00:55:46.4055464+08:00" finish="2015-10-06T00:59:45.9421267+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="26" executed="4" error="0" failed="0" timeout="0" aborted="1" inconclusive="3" passedButRunAborted="0" notRunnable="0" notExecuted="22" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-C3DDOP6" outcome="Warning" timestamp="2015-10-06T00:55:42.9102182+08:00">
+        <Text>当前已禁用部署。未部署测试“FourArithmetic.Form1Test.button5_ClickTest”中的部署项“Elementary Arithmetic.exe”。</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-C3DDOP6" outcome="Error" timestamp="2015-10-06T00:59:45.9381240+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="button5_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="5fa5d511-2cf5-5bbb-287a-6acc877592dd">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="17bba201-9c7d-4095-9cc8-7853bedd018f" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button5_ClickTest" />
+    </UnitTest>
+    <UnitTest name="CultureTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="6ab9181e-6922-1071-c510-faf5e47ff3e3">
+      <Execution id="73d540ae-ea90-47a3-b05e-fbb00b4dec16" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ResourcesTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CultureTest" />
+    </UnitTest>
+    <UnitTest name="Form2_LoadTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="e48d24e0-64d2-836b-6b7f-0c3151e30cfa">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="51c402f6-4238-4a74-bcb2-28926fc94a35" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form2_LoadTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="764cbef4-5963-435b-44f5-55787c9b83c2">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="671bbcee-b89d-489e-8bf8-257581f5c00f" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="button1_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="192874f9-cbc9-fe6f-f0e4-ba0046c553e3">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="2e54f031-37ef-4a8a-87bb-4f6d2798a626" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="24fe3c64-43ac-bed8-f521-1894b32d4798">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="9d2f300c-9f8b-495c-8669-3616e9d668f9" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ProgramTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="DefaultTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="6f7c94ce-999a-2a20-c672-e24393c0501e">
+      <Execution id="8ab7a058-10b6-45e7-b100-9affce0a64d2" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.SettingsTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DefaultTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="56b0c92c-0db1-8875-0381-09aa7cccc604">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="78dbf964-8a68-4313-90ce-b93da93ec194" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="Form1_LoadTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="d820032b-1af7-2752-aa46-f4abfbd73aff">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="20120b35-b83d-4a71-9b14-01df3c8a60fd" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form1_LoadTest" />
+    </UnitTest>
+    <UnitTest name="RandomNumTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="062467b6-14ee-6fe0-2383-959143b7a210">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="6b8a875b-aab6-4542-9556-3243d8cb84b4" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RandomNumTest" />
+    </UnitTest>
+    <UnitTest name="Form1ConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="3c36a9c4-5a1f-29f5-540c-13db87d6d2f4">
+      <Execution id="18fdb688-097a-4da9-8a8d-809d10511d35" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form1ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="button4_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="1658e1ac-aeab-d3f6-64d0-9fc2676dffef">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="8b0650b9-ae24-44c6-a661-2d0016e4f546" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button4_ClickTest" />
+    </UnitTest>
+    <UnitTest name="ResourceManagerTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="b4d2b0a1-0f36-7835-7d68-69a0d1e7a62f">
+      <Execution id="67a4a248-43e6-4f81-825c-a3c98bdc514c" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ResourcesTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResourceManagerTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="fc7b789b-87e1-d112-dbfa-0d9224e05f94">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="78012ad7-d47d-4416-b84b-5fedd48e69b3" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="2105c925-962a-3640-1e7f-b9b527fdb8db">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="18a2871d-6128-490d-86e9-7c22f7a78fd2" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="button2_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="a5b2e376-6523-7bdb-2a4e-d7ac5742c0a5">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="0fd4bbbd-737b-49f5-a560-982c7e43662b" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button2_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="ResourcesConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="deaa1942-bc8f-8f9d-4840-0e1f9c120a36">
+      <Execution id="438bc057-ef2e-454f-bf04-6c3de8ccbbee" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ResourcesTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResourcesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="button6_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="f569864e-b479-5644-75af-eebb583a771e">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="224e44b2-655c-41e5-aae8-f4566d75348b" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button6_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button3_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="34e28146-05de-33aa-60ca-f65e6d486dcd">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="1b76d7d4-9384-40f4-ad11-49bdb5e72795" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button3_ClickTest" />
+    </UnitTest>
+    <UnitTest name="button2_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="a75b344b-1180-d62b-aa11-dc315908f4af">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="4c0e9f86-939d-4d2f-86c4-5ec601d59e13" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button2_ClickTest" />
+    </UnitTest>
+    <UnitTest name="Form2ConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="9fded4a4-caa7-f382-850f-0d32658d6abe">
+      <Execution id="7b3621ee-59b7-4388-a051-e4d94c411b45" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form2ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SettingsConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="8d156d13-05df-2a07-43cf-65923483fbd0">
+      <Execution id="01341a95-dd66-4d88-8b85-828d28e1430d" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.SettingsTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SettingsConstructorTest" />
+    </UnitTest>
+    <UnitTest name="button3_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="22457535-129a-1af1-9397-5824aa3b863e">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="68eba81c-e553-4495-8ecd-30df6efb9521" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button3_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button4_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="050153ba-6f41-0359-37cd-434a46f956fa">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="76c7af35-2834-43d6-9660-b84ff882334b" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button4_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button6_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="abc3d868-5af7-e807-303b-81b834dc25c3">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="7f8959c4-2061-4d6e-b9be-5e1dcf2c42e2" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button6_ClickTest" />
+    </UnitTest>
+    <UnitTest name="button1_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="d9a42dbe-c255-f947-aa42-796f2a2fe96e">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="0a4ad44e-1466-453e-9164-a3adad49cbed" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button1_KeyDownTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24fe3c64-43ac-bed8-f521-1894b32d4798" executionId="9d2f300c-9f8b-495c-8669-3616e9d668f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4d2b0a1-0f36-7835-7d68-69a0d1e7a62f" executionId="67a4a248-43e6-4f81-825c-a3c98bdc514c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a75b344b-1180-d62b-aa11-dc315908f4af" executionId="4c0e9f86-939d-4d2f-86c4-5ec601d59e13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c36a9c4-5a1f-29f5-540c-13db87d6d2f4" executionId="18fdb688-097a-4da9-8a8d-809d10511d35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fded4a4-caa7-f382-850f-0d32658d6abe" executionId="7b3621ee-59b7-4388-a051-e4d94c411b45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ab9181e-6922-1071-c510-faf5e47ff3e3" executionId="73d540ae-ea90-47a3-b05e-fbb00b4dec16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc7b789b-87e1-d112-dbfa-0d9224e05f94" executionId="78012ad7-d47d-4416-b84b-5fedd48e69b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d820032b-1af7-2752-aa46-f4abfbd73aff" executionId="20120b35-b83d-4a71-9b14-01df3c8a60fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a42dbe-c255-f947-aa42-796f2a2fe96e" executionId="0a4ad44e-1466-453e-9164-a3adad49cbed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="192874f9-cbc9-fe6f-f0e4-ba0046c553e3" executionId="2e54f031-37ef-4a8a-87bb-4f6d2798a626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fa5d511-2cf5-5bbb-287a-6acc877592dd" executionId="17bba201-9c7d-4095-9cc8-7853bedd018f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56b0c92c-0db1-8875-0381-09aa7cccc604" executionId="78dbf964-8a68-4313-90ce-b93da93ec194" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22457535-129a-1af1-9397-5824aa3b863e" executionId="68eba81c-e553-4495-8ecd-30df6efb9521" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="764cbef4-5963-435b-44f5-55787c9b83c2" executionId="671bbcee-b89d-489e-8bf8-257581f5c00f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1658e1ac-aeab-d3f6-64d0-9fc2676dffef" executionId="8b0650b9-ae24-44c6-a661-2d0016e4f546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="deaa1942-bc8f-8f9d-4840-0e1f9c120a36" executionId="438bc057-ef2e-454f-bf04-6c3de8ccbbee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34e28146-05de-33aa-60ca-f65e6d486dcd" executionId="1b76d7d4-9384-40f4-ad11-49bdb5e72795" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f569864e-b479-5644-75af-eebb583a771e" executionId="224e44b2-655c-41e5-aae8-f4566d75348b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f7c94ce-999a-2a20-c672-e24393c0501e" executionId="8ab7a058-10b6-45e7-b100-9affce0a64d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abc3d868-5af7-e807-303b-81b834dc25c3" executionId="7f8959c4-2061-4d6e-b9be-5e1dcf2c42e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d156d13-05df-2a07-43cf-65923483fbd0" executionId="01341a95-dd66-4d88-8b85-828d28e1430d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2105c925-962a-3640-1e7f-b9b527fdb8db" executionId="18a2871d-6128-490d-86e9-7c22f7a78fd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e48d24e0-64d2-836b-6b7f-0c3151e30cfa" executionId="51c402f6-4238-4a74-bcb2-28926fc94a35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="062467b6-14ee-6fe0-2383-959143b7a210" executionId="6b8a875b-aab6-4542-9556-3243d8cb84b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="050153ba-6f41-0359-37cd-434a46f956fa" executionId="76c7af35-2834-43d6-9660-b84ff882334b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5b2e376-6523-7bdb-2a4e-d7ac5742c0a5" executionId="0fd4bbbd-737b-49f5-a560-982c7e43662b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9d2f300c-9f8b-495c-8669-3616e9d668f9" testId="24fe3c64-43ac-bed8-f521-1894b32d4798" testName="MainTest" computerName="DESKTOP-C3DDOP6" duration="00:02:22.8642004" startTime="2015-10-06T00:55:46.5676548+08:00" endTime="2015-10-06T00:58:10.8657858+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d2f300c-9f8b-495c-8669-3616e9d668f9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.ProgramTest.MainTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ProgramTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67a4a248-43e6-4f81-825c-a3c98bdc514c" testId="b4d2b0a1-0f36-7835-7d68-69a0d1e7a62f" testName="ResourceManagerTest" computerName="DESKTOP-C3DDOP6" duration="00:01:19.0693720" startTime="2015-10-06T00:58:10.8837988+08:00" endTime="2015-10-06T00:59:29.9644828+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67a4a248-43e6-4f81-825c-a3c98bdc514c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 FourArithmetic.ResourcesTest.ResourceManagerTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ResourcesTest.cs:行号 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4c0e9f86-939d-4d2f-86c4-5ec601d59e13" testId="a75b344b-1180-d62b-aa11-dc315908f4af" testName="button2_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:13.2736895" startTime="2015-10-06T00:59:30.0185179+08:00" endTime="2015-10-06T00:59:43.3053691+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c0e9f86-939d-4d2f-86c4-5ec601d59e13">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.button2_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 168
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18fdb688-097a-4da9-8a8d-809d10511d35" testId="3c36a9c4-5a1f-29f5-540c-13db87d6d2f4" testName="Form1ConstructorTest" computerName="DESKTOP-C3DDOP6" duration="00:00:02.6157435" startTime="2015-10-06T00:59:43.3243818+08:00" endTime="2015-10-06T00:59:45.9401253+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18fdb688-097a-4da9-8a8d-809d10511d35">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b3621ee-59b7-4388-a051-e4d94c411b45" testId="9fded4a4-caa7-f382-850f-0d32658d6abe" testName="Form2ConstructorTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b3621ee-59b7-4388-a051-e4d94c411b45">
+    </UnitTestResult>
+    <UnitTestResult executionId="73d540ae-ea90-47a3-b05e-fbb00b4dec16" testId="6ab9181e-6922-1071-c510-faf5e47ff3e3" testName="CultureTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73d540ae-ea90-47a3-b05e-fbb00b4dec16">
+    </UnitTestResult>
+    <UnitTestResult executionId="78012ad7-d47d-4416-b84b-5fedd48e69b3" testId="fc7b789b-87e1-d112-dbfa-0d9224e05f94" testName="DisposeTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78012ad7-d47d-4416-b84b-5fedd48e69b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="20120b35-b83d-4a71-9b14-01df3c8a60fd" testId="d820032b-1af7-2752-aa46-f4abfbd73aff" testName="Form1_LoadTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20120b35-b83d-4a71-9b14-01df3c8a60fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a4ad44e-1466-453e-9164-a3adad49cbed" testId="d9a42dbe-c255-f947-aa42-796f2a2fe96e" testName="button1_KeyDownTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a4ad44e-1466-453e-9164-a3adad49cbed">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e54f031-37ef-4a8a-87bb-4f6d2798a626" testId="192874f9-cbc9-fe6f-f0e4-ba0046c553e3" testName="button1_ClickTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e54f031-37ef-4a8a-87bb-4f6d2798a626">
+    </UnitTestResult>
+    <UnitTestResult executionId="17bba201-9c7d-4095-9cc8-7853bedd018f" testId="5fa5d511-2cf5-5bbb-287a-6acc877592dd" testName="button5_ClickTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17bba201-9c7d-4095-9cc8-7853bedd018f">
+    </UnitTestResult>
+    <UnitTestResult executionId="78dbf964-8a68-4313-90ce-b93da93ec194" testId="56b0c92c-0db1-8875-0381-09aa7cccc604" testName="InitializeComponentTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78dbf964-8a68-4313-90ce-b93da93ec194">
+    </UnitTestResult>
+    <UnitTestResult executionId="68eba81c-e553-4495-8ecd-30df6efb9521" testId="22457535-129a-1af1-9397-5824aa3b863e" testName="button3_KeyDownTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68eba81c-e553-4495-8ecd-30df6efb9521">
+    </UnitTestResult>
+    <UnitTestResult executionId="671bbcee-b89d-489e-8bf8-257581f5c00f" testId="764cbef4-5963-435b-44f5-55787c9b83c2" testName="DisposeTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="671bbcee-b89d-489e-8bf8-257581f5c00f">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b0650b9-ae24-44c6-a661-2d0016e4f546" testId="1658e1ac-aeab-d3f6-64d0-9fc2676dffef" testName="button4_ClickTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b0650b9-ae24-44c6-a661-2d0016e4f546">
+    </UnitTestResult>
+    <UnitTestResult executionId="438bc057-ef2e-454f-bf04-6c3de8ccbbee" testId="deaa1942-bc8f-8f9d-4840-0e1f9c120a36" testName="ResourcesConstructorTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="438bc057-ef2e-454f-bf04-6c3de8ccbbee">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b76d7d4-9384-40f4-ad11-49bdb5e72795" testId="34e28146-05de-33aa-60ca-f65e6d486dcd" testName="button3_ClickTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b76d7d4-9384-40f4-ad11-49bdb5e72795">
+    </UnitTestResult>
+    <UnitTestResult executionId="224e44b2-655c-41e5-aae8-f4566d75348b" testId="f569864e-b479-5644-75af-eebb583a771e" testName="button6_KeyDownTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="224e44b2-655c-41e5-aae8-f4566d75348b">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ab7a058-10b6-45e7-b100-9affce0a64d2" testId="6f7c94ce-999a-2a20-c672-e24393c0501e" testName="DefaultTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ab7a058-10b6-45e7-b100-9affce0a64d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f8959c4-2061-4d6e-b9be-5e1dcf2c42e2" testId="abc3d868-5af7-e807-303b-81b834dc25c3" testName="button6_ClickTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f8959c4-2061-4d6e-b9be-5e1dcf2c42e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="01341a95-dd66-4d88-8b85-828d28e1430d" testId="8d156d13-05df-2a07-43cf-65923483fbd0" testName="SettingsConstructorTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01341a95-dd66-4d88-8b85-828d28e1430d">
+    </UnitTestResult>
+    <UnitTestResult executionId="18a2871d-6128-490d-86e9-7c22f7a78fd2" testId="2105c925-962a-3640-1e7f-b9b527fdb8db" testName="InitializeComponentTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18a2871d-6128-490d-86e9-7c22f7a78fd2">
+    </UnitTestResult>
+    <UnitTestResult executionId="51c402f6-4238-4a74-bcb2-28926fc94a35" testId="e48d24e0-64d2-836b-6b7f-0c3151e30cfa" testName="Form2_LoadTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51c402f6-4238-4a74-bcb2-28926fc94a35">
+    </UnitTestResult>
+    <UnitTestResult executionId="6b8a875b-aab6-4542-9556-3243d8cb84b4" testId="062467b6-14ee-6fe0-2383-959143b7a210" testName="RandomNumTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b8a875b-aab6-4542-9556-3243d8cb84b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="76c7af35-2834-43d6-9660-b84ff882334b" testId="050153ba-6f41-0359-37cd-434a46f956fa" testName="button4_KeyDownTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c7af35-2834-43d6-9660-b84ff882334b">
+    </UnitTestResult>
+    <UnitTestResult executionId="0fd4bbbd-737b-49f5-a560-982c7e43662b" testId="a5b2e376-6523-7bdb-2a4e-d7ac5742c0a5" testName="button2_KeyDownTest" computerName="DESKTOP-C3DDOP6" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fd4bbbd-737b-49f5-a560-982c7e43662b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

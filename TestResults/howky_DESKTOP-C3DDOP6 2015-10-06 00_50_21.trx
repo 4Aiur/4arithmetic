@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d147c9c7-f2ab-45b6-9ece-c089658e3327" name="howky@DESKTOP-C3DDOP6 2015-10-06 00:50:21" runUser="DESKTOP-C3DDOP6\howky" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9f39570d-a9c3-4060-b24b-f24c92f277c5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="howky_DESKTOP-C3DDOP6 2015-10-06 00_50_21">
+      <DeploymentItem filename="c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-06T00:50:21.9433900+08:00" queuing="2015-10-06T00:50:22.0324489+08:00" start="2015-10-06T00:50:22.0584662+08:00" finish="2015-10-06T00:50:34.8710028+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="26" executed="26" error="0" failed="6" timeout="0" aborted="0" inconclusive="20" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-C3DDOP6" outcome="Warning" timestamp="2015-10-06T00:50:22.0324489+08:00">
+        <Text>当前已禁用部署。未部署测试“FourArithmetic.Form2Test.DisposeTest”中的部署项“Elementary Arithmetic.exe”。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DisposeTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="fc7b789b-87e1-d112-dbfa-0d9224e05f94">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="a2078cfe-d33c-4d70-9337-e92f6c08b27a" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="button6_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="f569864e-b479-5644-75af-eebb583a771e">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="3a4827a0-3edd-448d-8fcf-e7b147d97c5a" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button6_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button5_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="5fa5d511-2cf5-5bbb-287a-6acc877592dd">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="af1cd012-7d89-4804-98ce-dfad4d7f5534" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button5_ClickTest" />
+    </UnitTest>
+    <UnitTest name="CultureTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="6ab9181e-6922-1071-c510-faf5e47ff3e3">
+      <Execution id="272e1e05-a80c-4fd0-891b-d5ccc7405ade" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ResourcesTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CultureTest" />
+    </UnitTest>
+    <UnitTest name="Form2_LoadTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="e48d24e0-64d2-836b-6b7f-0c3151e30cfa">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="9039245c-fdab-4854-975b-d477143d4353" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form2_LoadTest" />
+    </UnitTest>
+    <UnitTest name="button4_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="050153ba-6f41-0359-37cd-434a46f956fa">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="7d824770-4627-48d5-b2c4-7c2354d288a3" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button4_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button1_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="192874f9-cbc9-fe6f-f0e4-ba0046c553e3">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="4dab7004-59ca-4417-b40b-9ba923941f7a" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="MainTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="24fe3c64-43ac-bed8-f521-1894b32d4798">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="720da210-8669-45b3-bbcf-c002aee45b56" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ProgramTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="2105c925-962a-3640-1e7f-b9b527fdb8db">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="c8b796cd-bcba-44da-975f-d702976bbe70" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="56b0c92c-0db1-8875-0381-09aa7cccc604">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="c816f319-3bfa-4b82-80c1-df633c5f3d8c" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="Form1_LoadTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="d820032b-1af7-2752-aa46-f4abfbd73aff">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="31eb5eec-5ff5-4b52-a7ca-aa2485fe7dfc" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form1_LoadTest" />
+    </UnitTest>
+    <UnitTest name="Form1ConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="3c36a9c4-5a1f-29f5-540c-13db87d6d2f4">
+      <Execution id="173e6fee-06c6-4b87-b194-7e0c40d8ff3e" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form1ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="button4_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="1658e1ac-aeab-d3f6-64d0-9fc2676dffef">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="5436404c-178a-498e-8530-4cfe1665ae11" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button4_ClickTest" />
+    </UnitTest>
+    <UnitTest name="button6_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="abc3d868-5af7-e807-303b-81b834dc25c3">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="0440624d-5538-4d9f-9c6c-e38c1445b8ce" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button6_ClickTest" />
+    </UnitTest>
+    <UnitTest name="DefaultTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="6f7c94ce-999a-2a20-c672-e24393c0501e">
+      <Execution id="77e3b639-e653-4cb2-b22d-3f71e8f4c2bf" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.SettingsTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DefaultTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="764cbef4-5963-435b-44f5-55787c9b83c2">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="eb1b35c2-8689-4a5b-a41c-3f41a6da0c02" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="ResourcesConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="deaa1942-bc8f-8f9d-4840-0e1f9c120a36">
+      <Execution id="8e866c5b-f720-4583-9d39-b759aa81669b" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ResourcesTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResourcesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RandomNumTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="062467b6-14ee-6fe0-2383-959143b7a210">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="e64ba685-4147-4382-a303-f900b115e32e" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RandomNumTest" />
+    </UnitTest>
+    <UnitTest name="button3_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="34e28146-05de-33aa-60ca-f65e6d486dcd">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="a072ae5c-1463-4241-8840-c7e085d4f46e" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button3_ClickTest" />
+    </UnitTest>
+    <UnitTest name="ResourceManagerTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="b4d2b0a1-0f36-7835-7d68-69a0d1e7a62f">
+      <Execution id="1b0bd731-ab17-449b-b57b-6aed46c1b5bd" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ResourcesTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResourceManagerTest" />
+    </UnitTest>
+    <UnitTest name="button2_ClickTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="a75b344b-1180-d62b-aa11-dc315908f4af">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="a967f07c-f9e2-4d30-bafd-7bd02c2a2a28" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button2_ClickTest" />
+    </UnitTest>
+    <UnitTest name="Form2ConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="9fded4a4-caa7-f382-850f-0d32658d6abe">
+      <Execution id="cacf9ba5-140c-4688-b154-b0c71546c50a" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form2Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Form2ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SettingsConstructorTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="8d156d13-05df-2a07-43cf-65923483fbd0">
+      <Execution id="611811a3-6ee9-460c-b719-87ee43ca0bd2" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.SettingsTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SettingsConstructorTest" />
+    </UnitTest>
+    <UnitTest name="button3_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="22457535-129a-1af1-9397-5824aa3b863e">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="7665b336-31cf-436f-9eb9-839ee926aa21" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button3_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button2_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="a5b2e376-6523-7bdb-2a4e-d7ac5742c0a5">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="28849f8a-eeca-4826-8604-8867db6eef7f" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button2_KeyDownTest" />
+    </UnitTest>
+    <UnitTest name="button1_KeyDownTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="d9a42dbe-c255-f947-aa42-796f2a2fe96e">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="463ace5f-a678-44aa-a8a2-231ffc397c6d" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.Form1Test, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button1_KeyDownTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="050153ba-6f41-0359-37cd-434a46f956fa" executionId="7d824770-4627-48d5-b2c4-7c2354d288a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="062467b6-14ee-6fe0-2383-959143b7a210" executionId="e64ba685-4147-4382-a303-f900b115e32e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1658e1ac-aeab-d3f6-64d0-9fc2676dffef" executionId="5436404c-178a-498e-8530-4cfe1665ae11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="192874f9-cbc9-fe6f-f0e4-ba0046c553e3" executionId="4dab7004-59ca-4417-b40b-9ba923941f7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2105c925-962a-3640-1e7f-b9b527fdb8db" executionId="c8b796cd-bcba-44da-975f-d702976bbe70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22457535-129a-1af1-9397-5824aa3b863e" executionId="7665b336-31cf-436f-9eb9-839ee926aa21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24fe3c64-43ac-bed8-f521-1894b32d4798" executionId="720da210-8669-45b3-bbcf-c002aee45b56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34e28146-05de-33aa-60ca-f65e6d486dcd" executionId="a072ae5c-1463-4241-8840-c7e085d4f46e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c36a9c4-5a1f-29f5-540c-13db87d6d2f4" executionId="173e6fee-06c6-4b87-b194-7e0c40d8ff3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56b0c92c-0db1-8875-0381-09aa7cccc604" executionId="c816f319-3bfa-4b82-80c1-df633c5f3d8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fa5d511-2cf5-5bbb-287a-6acc877592dd" executionId="af1cd012-7d89-4804-98ce-dfad4d7f5534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ab9181e-6922-1071-c510-faf5e47ff3e3" executionId="272e1e05-a80c-4fd0-891b-d5ccc7405ade" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f7c94ce-999a-2a20-c672-e24393c0501e" executionId="77e3b639-e653-4cb2-b22d-3f71e8f4c2bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="764cbef4-5963-435b-44f5-55787c9b83c2" executionId="eb1b35c2-8689-4a5b-a41c-3f41a6da0c02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d156d13-05df-2a07-43cf-65923483fbd0" executionId="611811a3-6ee9-460c-b719-87ee43ca0bd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fded4a4-caa7-f382-850f-0d32658d6abe" executionId="cacf9ba5-140c-4688-b154-b0c71546c50a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5b2e376-6523-7bdb-2a4e-d7ac5742c0a5" executionId="28849f8a-eeca-4826-8604-8867db6eef7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a75b344b-1180-d62b-aa11-dc315908f4af" executionId="a967f07c-f9e2-4d30-bafd-7bd02c2a2a28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abc3d868-5af7-e807-303b-81b834dc25c3" executionId="0440624d-5538-4d9f-9c6c-e38c1445b8ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4d2b0a1-0f36-7835-7d68-69a0d1e7a62f" executionId="1b0bd731-ab17-449b-b57b-6aed46c1b5bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d820032b-1af7-2752-aa46-f4abfbd73aff" executionId="31eb5eec-5ff5-4b52-a7ca-aa2485fe7dfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9a42dbe-c255-f947-aa42-796f2a2fe96e" executionId="463ace5f-a678-44aa-a8a2-231ffc397c6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="deaa1942-bc8f-8f9d-4840-0e1f9c120a36" executionId="8e866c5b-f720-4583-9d39-b759aa81669b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e48d24e0-64d2-836b-6b7f-0c3151e30cfa" executionId="9039245c-fdab-4854-975b-d477143d4353" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f569864e-b479-5644-75af-eebb583a771e" executionId="3a4827a0-3edd-448d-8fcf-e7b147d97c5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc7b789b-87e1-d112-dbfa-0d9224e05f94" executionId="a2078cfe-d33c-4d70-9337-e92f6c08b27a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d824770-4627-48d5-b2c4-7c2354d288a3" testId="050153ba-6f41-0359-37cd-434a46f956fa" testName="button4_KeyDownTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.4039129" startTime="2015-10-06T00:50:22.2015615+08:00" endTime="2015-10-06T00:50:22.8870186+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d824770-4627-48d5-b2c4-7c2354d288a3">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 FourArithmetic.Form1Test.button4_KeyDownTest 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>   在 Elementary_Arithmetic.Form1_Accessor.button4_KeyDown(Object sender, KeyEventArgs e)
+   在 FourArithmetic.Form1Test.button4_KeyDownTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 237
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e64ba685-4147-4382-a303-f900b115e32e" testId="062467b6-14ee-6fe0-2383-959143b7a210" testName="RandomNumTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0160680" startTime="2015-10-06T00:50:22.9010280+08:00" endTime="2015-10-06T00:50:22.9500606+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e64ba685-4147-4382-a303-f900b115e32e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.RandomNumTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5436404c-178a-498e-8530-4cfe1665ae11" testId="1658e1ac-aeab-d3f6-64d0-9fc2676dffef" testName="button4_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0101638" startTime="2015-10-06T00:50:22.9940904+08:00" endTime="2015-10-06T00:50:23.0101002+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5436404c-178a-498e-8530-4cfe1665ae11">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.button4_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 224
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4dab7004-59ca-4417-b40b-9ba923941f7a" testId="192874f9-cbc9-fe6f-f0e4-ba0046c553e3" testName="button1_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0081816" startTime="2015-10-06T00:50:23.0231088+08:00" endTime="2015-10-06T00:50:23.0381188+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dab7004-59ca-4417-b40b-9ba923941f7a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.button1_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 140
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8b796cd-bcba-44da-975f-d702976bbe70" testId="2105c925-962a-3640-1e7f-b9b527fdb8db" testName="InitializeComponentTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0121554" startTime="2015-10-06T00:50:23.0531293+08:00" endTime="2015-10-06T00:50:23.0701402+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8b796cd-bcba-44da-975f-d702976bbe70">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form2Test.InitializeComponentTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form2Test.cs:行号 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7665b336-31cf-436f-9eb9-839ee926aa21" testId="22457535-129a-1af1-9397-5824aa3b863e" testName="button3_KeyDownTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0114789" startTime="2015-10-06T00:50:23.1151702+08:00" endTime="2015-10-06T00:50:23.1321810+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7665b336-31cf-436f-9eb9-839ee926aa21">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 FourArithmetic.Form1Test.button3_KeyDownTest 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>   在 Elementary_Arithmetic.Form1_Accessor.button3_KeyDown(Object sender, KeyEventArgs e)
+   在 FourArithmetic.Form1Test.button3_KeyDownTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 209
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="720da210-8669-45b3-bbcf-c002aee45b56" testId="24fe3c64-43ac-bed8-f521-1894b32d4798" testName="MainTest" computerName="DESKTOP-C3DDOP6" duration="00:00:09.9665819" startTime="2015-10-06T00:50:23.1501935+08:00" endTime="2015-10-06T00:50:33.1238384+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="720da210-8669-45b3-bbcf-c002aee45b56">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.ProgramTest.MainTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ProgramTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a072ae5c-1463-4241-8840-c7e085d4f46e" testId="34e28146-05de-33aa-60ca-f65e6d486dcd" testName="button3_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0072808" startTime="2015-10-06T00:50:33.1708697+08:00" endTime="2015-10-06T00:50:33.1848795+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a072ae5c-1463-4241-8840-c7e085d4f46e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.button3_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 196
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="173e6fee-06c6-4b87-b194-7e0c40d8ff3e" testId="3c36a9c4-5a1f-29f5-540c-13db87d6d2f4" testName="Form1ConstructorTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0058187" startTime="2015-10-06T00:50:33.1928839+08:00" endTime="2015-10-06T00:50:33.2048929+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="173e6fee-06c6-4b87-b194-7e0c40d8ff3e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。TODO: 实现用来验证目标的代码</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.Form1ConstructorTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c816f319-3bfa-4b82-80c1-df633c5f3d8c" testId="56b0c92c-0db1-8875-0381-09aa7cccc604" testName="InitializeComponentTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0120537" startTime="2015-10-06T00:50:33.2148986+08:00" endTime="2015-10-06T00:50:33.2349119+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c816f319-3bfa-4b82-80c1-df633c5f3d8c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.InitializeComponentTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af1cd012-7d89-4804-98ce-dfad4d7f5534" testId="5fa5d511-2cf5-5bbb-287a-6acc877592dd" testName="button5_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0383859" startTime="2015-10-06T00:50:33.2469204+08:00" endTime="2015-10-06T00:50:33.2929511+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af1cd012-7d89-4804-98ce-dfad4d7f5534">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 FourArithmetic.Form1Test.button5_ClickTest 引发了异常: 
+System.FormatException: 输入字符串的格式不正确。</Message>
+          <StackTrace>   在 Elementary_Arithmetic.Form1_Accessor.button5_Click(Object sender, EventArgs e)
+   在 FourArithmetic.Form1Test.button5_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 251
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="272e1e05-a80c-4fd0-891b-d5ccc7405ade" testId="6ab9181e-6922-1071-c510-faf5e47ff3e3" testName="CultureTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0033990" startTime="2015-10-06T00:50:33.3069599+08:00" endTime="2015-10-06T00:50:33.3179673+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="272e1e05-a80c-4fd0-891b-d5ccc7405ade">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 FourArithmetic.ResourcesTest.CultureTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ResourcesTest.cs:行号 90
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77e3b639-e653-4cb2-b22d-3f71e8f4c2bf" testId="6f7c94ce-999a-2a20-c672-e24393c0501e" testName="DefaultTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0197810" startTime="2015-10-06T00:50:33.3479873+08:00" endTime="2015-10-06T00:50:33.3760073+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77e3b639-e653-4cb2-b22d-3f71e8f4c2bf">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 FourArithmetic.SettingsTest.DefaultTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\SettingsTest.cs:行号 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb1b35c2-8689-4a5b-a41c-3f41a6da0c02" testId="764cbef4-5963-435b-44f5-55787c9b83c2" testName="DisposeTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0085679" startTime="2015-10-06T00:50:33.3850129+08:00" endTime="2015-10-06T00:50:33.3990213+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb1b35c2-8689-4a5b-a41c-3f41a6da0c02">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.DisposeTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 88
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="611811a3-6ee9-460c-b719-87ee43ca0bd2" testId="8d156d13-05df-2a07-43cf-65923483fbd0" testName="SettingsConstructorTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0012110" startTime="2015-10-06T00:50:33.4210369+08:00" endTime="2015-10-06T00:50:33.4280411+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="611811a3-6ee9-460c-b719-87ee43ca0bd2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。TODO: 实现用来验证目标的代码</Message>
+          <StackTrace>   在 FourArithmetic.SettingsTest.SettingsConstructorTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\SettingsTest.cs:行号 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cacf9ba5-140c-4688-b154-b0c71546c50a" testId="9fded4a4-caa7-f382-850f-0d32658d6abe" testName="Form2ConstructorTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0047252" startTime="2015-10-06T00:50:33.4330444+08:00" endTime="2015-10-06T00:50:33.4430511+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cacf9ba5-140c-4688-b154-b0c71546c50a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。TODO: 实现用来验证目标的代码</Message>
+          <StackTrace>   在 FourArithmetic.Form2Test.Form2ConstructorTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form2Test.cs:行号 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="28849f8a-eeca-4826-8604-8867db6eef7f" testId="a5b2e376-6523-7bdb-2a4e-d7ac5742c0a5" testName="button2_KeyDownTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0090437" startTime="2015-10-06T00:50:33.4550591+08:00" endTime="2015-10-06T00:50:33.4690679+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28849f8a-eeca-4826-8604-8867db6eef7f">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 FourArithmetic.Form1Test.button2_KeyDownTest 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>   在 Elementary_Arithmetic.Form1_Accessor.button2_KeyDown(Object sender, KeyEventArgs e)
+   在 FourArithmetic.Form1Test.button2_KeyDownTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a967f07c-f9e2-4d30-bafd-7bd02c2a2a28" testId="a75b344b-1180-d62b-aa11-dc315908f4af" testName="button2_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0091450" startTime="2015-10-06T00:50:33.4770742+08:00" endTime="2015-10-06T00:50:33.4900824+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a967f07c-f9e2-4d30-bafd-7bd02c2a2a28">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.button2_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 168
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0440624d-5538-4d9f-9c6c-e38c1445b8ce" testId="abc3d868-5af7-e807-303b-81b834dc25c3" testName="button6_ClickTest" computerName="DESKTOP-C3DDOP6" duration="00:00:01.0733719" startTime="2015-10-06T00:50:33.4980873+08:00" endTime="2015-10-06T00:50:34.5768059+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0440624d-5538-4d9f-9c6c-e38c1445b8ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.button6_ClickTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 266
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b0bd731-ab17-449b-b57b-6aed46c1b5bd" testId="b4d2b0a1-0f36-7835-7d68-69a0d1e7a62f" testName="ResourceManagerTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0035697" startTime="2015-10-06T00:50:34.5958195+08:00" endTime="2015-10-06T00:50:34.6048246+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b0bd731-ab17-449b-b57b-6aed46c1b5bd">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。验证此测试方法的正确性。</Message>
+          <StackTrace>   在 FourArithmetic.ResourcesTest.ResourceManagerTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ResourcesTest.cs:行号 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31eb5eec-5ff5-4b52-a7ca-aa2485fe7dfc" testId="d820032b-1af7-2752-aa46-f4abfbd73aff" testName="Form1_LoadTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0063510" startTime="2015-10-06T00:50:34.6438506+08:00" endTime="2015-10-06T00:50:34.6548584+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31eb5eec-5ff5-4b52-a7ca-aa2485fe7dfc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form1Test.Form1_LoadTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="463ace5f-a678-44aa-a8a2-231ffc397c6d" testId="d9a42dbe-c255-f947-aa42-796f2a2fe96e" testName="button1_KeyDownTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0102114" startTime="2015-10-06T00:50:34.6628642+08:00" endTime="2015-10-06T00:50:34.6778728+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="463ace5f-a678-44aa-a8a2-231ffc397c6d">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 FourArithmetic.Form1Test.button1_KeyDownTest 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>   在 Elementary_Arithmetic.Form1_Accessor.button1_KeyDown(Object sender, KeyEventArgs e)
+   在 FourArithmetic.Form1Test.button1_KeyDownTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 153
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e866c5b-f720-4583-9d39-b759aa81669b" testId="deaa1942-bc8f-8f9d-4840-0e1f9c120a36" testName="ResourcesConstructorTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0011849" startTime="2015-10-06T00:50:34.6868802+08:00" endTime="2015-10-06T00:50:34.6948855+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e866c5b-f720-4583-9d39-b759aa81669b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。TODO: 实现用来验证目标的代码</Message>
+          <StackTrace>   在 FourArithmetic.ResourcesTest.ResourcesConstructorTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ResourcesTest.cs:行号 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9039245c-fdab-4854-975b-d477143d4353" testId="e48d24e0-64d2-836b-6b7f-0c3151e30cfa" testName="Form2_LoadTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0085520" startTime="2015-10-06T00:50:34.7108952+08:00" endTime="2015-10-06T00:50:34.7259052+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9039245c-fdab-4854-975b-d477143d4353">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form2Test.Form2_LoadTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form2Test.cs:行号 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a4827a0-3edd-448d-8fcf-e7b147d97c5a" testId="f569864e-b479-5644-75af-eebb583a771e" testName="button6_KeyDownTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0111976" startTime="2015-10-06T00:50:34.7459186+08:00" endTime="2015-10-06T00:50:34.7639310+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a4827a0-3edd-448d-8fcf-e7b147d97c5a">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 FourArithmetic.Form1Test.button6_KeyDownTest 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>   在 Elementary_Arithmetic.Form1_Accessor.button6_KeyDown(Object sender, KeyEventArgs e)
+   在 FourArithmetic.Form1Test.button6_KeyDownTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form1Test.cs:行号 279
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a2078cfe-d33c-4d70-9337-e92f6c08b27a" testId="fc7b789b-87e1-d112-dbfa-0d9224e05f94" testName="DisposeTest" computerName="DESKTOP-C3DDOP6" duration="00:00:00.0067910" startTime="2015-10-06T00:50:34.7759390+08:00" endTime="2015-10-06T00:50:34.7939510+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2078cfe-d33c-4d70-9337-e92f6c08b27a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.Form2Test.DisposeTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\Form2Test.cs:行号 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

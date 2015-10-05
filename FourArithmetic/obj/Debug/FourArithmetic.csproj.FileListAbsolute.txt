@@ -1,0 +1,11 @@
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\FourArithmetic.dll
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\FourArithmetic.pdb
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\Elementary Arithmetic.exe
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\Elementary Arithmetic.pdb
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\Elementary Arithmetic_Accessor.exe
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\Elementary Arithmetic_Accessor.pdb
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\obj\Debug\FourArithmetic.csprojResolveAssemblyReference.cache
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\obj\Debug\FourArithmetic.dll
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\obj\Debug\FourArithmetic.pdb
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\FourArithmetic.dll.CodeAnalysisLog.xml
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\FourArithmetic.dll.lastcodeanalysissucceeded

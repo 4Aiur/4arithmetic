@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a3ebf645-89de-495f-a283-dff896b7b23e" name="howky@DESKTOP-C3DDOP6 2015-10-06 00:49:22" runUser="DESKTOP-C3DDOP6\howky" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="9f39570d-a9c3-4060-b24b-f24c92f277c5">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="howky_DESKTOP-C3DDOP6 2015-10-06 00_49_22">
+      <DeploymentItem filename="c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-06T00:49:22.5528230+08:00" queuing="2015-10-06T00:49:31.4447487+08:00" start="2015-10-06T00:49:32.2692971+08:00" finish="2015-10-06T00:50:13.9550686+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-C3DDOP6" outcome="Warning" timestamp="2015-10-06T00:49:28.0084585+08:00">
+        <Text>当前已禁用部署。未部署测试“FourArithmetic.ProgramTest.MainTest”中的部署项“Elementary Arithmetic.exe”。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MainTest" storage="c:\users\howky\documents\visual studio 2010\projects\elementary arithmetic\fourarithmetic\bin\debug\fourarithmetic.dll" id="24fe3c64-43ac-bed8-f521-1894b32d4798">
+      <DeploymentItems>
+        <DeploymentItem filename="Elementary Arithmetic.exe" />
+      </DeploymentItems>
+      <Execution id="c5e0f383-f8b7-4d2d-a7b5-e278ecec46a5" />
+      <TestMethod codeBase="c:/users/howky/documents/visual studio 2010/Projects/Elementary Arithmetic/FourArithmetic/bin/Debug/FourArithmetic.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FourArithmetic.ProgramTest, FourArithmetic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24fe3c64-43ac-bed8-f521-1894b32d4798" executionId="c5e0f383-f8b7-4d2d-a7b5-e278ecec46a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c5e0f383-f8b7-4d2d-a7b5-e278ecec46a5" testId="24fe3c64-43ac-bed8-f521-1894b32d4798" testName="MainTest" computerName="DESKTOP-C3DDOP6" duration="00:00:40.4194565" startTime="2015-10-06T00:49:32.5905106+08:00" endTime="2015-10-06T00:50:13.7019000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5e0f383-f8b7-4d2d-a7b5-e278ecec46a5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive 失败。无法验证不返回值的方法。</Message>
+          <StackTrace>   在 FourArithmetic.ProgramTest.MainTest() 位置 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\ProgramTest.cs:行号 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

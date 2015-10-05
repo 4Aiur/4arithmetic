@@ -1,0 +1,8 @@
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.exe
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.pdb
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary_Arithmetic.Form1.resources
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary_Arithmetic.Form2.resources
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary_Arithmetic.Properties.Resources.resources
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.csproj.GenerateResource.Cache
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.exe
+c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.pdb
