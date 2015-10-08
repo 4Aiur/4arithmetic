@@ -6,3 +6,11 @@ c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Eleme
 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.csproj.GenerateResource.Cache
 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.exe
 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.pdb
+D:\SchoolWork\EA\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.exe
+D:\SchoolWork\EA\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.pdb
+D:\SchoolWork\EA\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.exe
+D:\SchoolWork\EA\Elementary Arithmetic\bin\Debug\Elementary Arithmetic.pdb
+D:\SchoolWork\EA\Elementary Arithmetic\obj\x86\Debug\Elementary_Arithmetic.Form1.resources
+D:\SchoolWork\EA\Elementary Arithmetic\obj\x86\Debug\Elementary_Arithmetic.Form2.resources
+D:\SchoolWork\EA\Elementary Arithmetic\obj\x86\Debug\Elementary_Arithmetic.Properties.Resources.resources
+D:\SchoolWork\EA\Elementary Arithmetic\obj\x86\Debug\Elementary Arithmetic.csproj.GenerateResource.Cache

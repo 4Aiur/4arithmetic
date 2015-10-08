@@ -9,3 +9,12 @@ c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourA
 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\obj\Debug\FourArithmetic.pdb
 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\FourArithmetic.dll.CodeAnalysisLog.xml
 c:\users\howky\documents\visual studio 2010\Projects\Elementary Arithmetic\FourArithmetic\bin\Debug\FourArithmetic.dll.lastcodeanalysissucceeded
+D:\SchoolWork\EA\FourArithmetic\bin\Debug\FourArithmetic.dll
+D:\SchoolWork\EA\FourArithmetic\bin\Debug\FourArithmetic.pdb
+D:\SchoolWork\EA\FourArithmetic\bin\Debug\Elementary Arithmetic.exe
+D:\SchoolWork\EA\FourArithmetic\bin\Debug\Elementary Arithmetic.pdb
+D:\SchoolWork\EA\FourArithmetic\bin\Debug\Elementary Arithmetic_Accessor.exe
+D:\SchoolWork\EA\FourArithmetic\bin\Debug\Elementary Arithmetic_Accessor.pdb
+D:\SchoolWork\EA\FourArithmetic\obj\Debug\FourArithmetic.csprojResolveAssemblyReference.cache
+D:\SchoolWork\EA\FourArithmetic\obj\Debug\FourArithmetic.dll
+D:\SchoolWork\EA\FourArithmetic\obj\Debug\FourArithmetic.pdb

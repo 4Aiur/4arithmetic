@@ -51,7 +51,6 @@ namespace Elementary_Arithmetic
         private void button5_Click(object sender, EventArgs e)
         {
             int math;
-            string i = label4.Text;
             if (label4.Text == "+")
                 math = int.Parse(textBox1.Text) + int.Parse(textBox2.Text);
             else if (label4.Text == "-")
@@ -111,7 +110,7 @@ namespace Elementary_Arithmetic
 
         private void button4_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.E)
+            if (e.KeyCode == Keys.R)
             {
                 label4.Text = "÷";
             }
